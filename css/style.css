@@ -1,0 +1,56 @@
+body {
+  background: #ecf0f1cf;
+}
+.main {
+  width: 85%;
+  margin: auto;
+  margin-top: 85px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+.dt-input {
+  font-size: 15px;
+}
+.dt-length label {
+  text-transform: capitalize;
+  font-size: 18px !important;
+  margin-left: 5px;
+}
+.dt-input:focus {
+  outline: none;
+}
+table,
+th,
+td {
+  border: 1px solid #0000004a;
+  border-collapse: collapse;
+}
+.cpair {
+  text-transform: uppercase;
+}
+.up {
+  display: block;
+  background: rgba(0, 128, 0, 0.783);
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}
+.down {
+  display: block;
+  background: #ff0000e3;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}
+.imgUrl {
+  font-size: 14px;
+  display: flex;
+  height: 40px;
+  column-gap: 5px;
+  align-items: center;
+}
+.imgUrl a {
+  text-decoration: none;
+  color: black;
+}
